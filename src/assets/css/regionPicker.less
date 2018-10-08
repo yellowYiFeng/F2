@@ -1,0 +1,33 @@
+.inline-picker{
+    .vux-no-group-title{
+        margin-top: 0;
+    }
+    .vux-cell-box{
+        border:1px solid #e5e5e5;
+    }
+    .weui-cell{
+        padding: 5px 10px;
+    }
+    .vux-cell-value{
+        color: #2c3e50;
+    }
+}
+.up{
+    &::before{
+        content: '↑';
+    }
+    color: red;
+    float: right;
+}
+.down{
+    &::before{
+        content: '↓';
+    }
+    color: #3dc16e;
+    float: right;
+}
+.hide-pick-value{
+    .vux-popup-picker-value{
+        display: none;
+    }
+}
